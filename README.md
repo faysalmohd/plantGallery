@@ -12,7 +12,7 @@ To start the Metro dev server, run the following command from the root of your R
 
 ```sh
 # Using npm
-npm insall
+npm install
 ```
 
 ## Step 2: Build and run the app in android
@@ -66,23 +66,23 @@ npx react-native run-android
 ![Image 12](assets/images/Screenshot_20250209_225913_Gallery.png)
 
 
-![Image 12](assets/images/Screenshot_20250209_225918_Gallery.png)
+![Image 13](assets/images/Screenshot_20250209_225918_Gallery.png)
 
 
-![Image 12](assets/images/Screenshot_20250209_225929_Gallery.png)
+![Image 14](assets/images/Screenshot_20250209_225929_Gallery.png)
 
 
-![Image 12](assets/images/Screenshot_20250209_225939_Gallery.png)
+![Image 15](assets/images/Screenshot_20250209_225939_Gallery.png)
 
 
-![Image 12](assets/images/Screenshot_20250209_225953_Gallery.png)
+![Image 16](assets/images/Screenshot_20250209_225953_Gallery.png)
 
 
-![Image 12](assets/images/Screenshot_20250209_230002_Gallery.png)
+![Image 17](assets/images/Screenshot_20250209_230002_Gallery.png)
 
 
 ### There is a video that I have uploaded in YouTube. I have demonstrated the usage and functions of the App.
 
-[Video Link](https://youtu.be/BYbbRnopRSg?si=5dRCxfxlaR0PxtFW)
+[Video Link](https://youtu.be/BYbbRnopRSg)
 
 # Thank You
