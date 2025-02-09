@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C80B921A6F3F58F76C31292 /* libPods-PlantGallery.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-PlantGallery.a */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		761780ED2CA45674006654EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761780EC2CA45674006654EE /* AppDelegate.swift */; };
+		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		948191DE9C3B4B83A051FBCF /* Omnes Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A7B4BD4A14124924B0672CC0 /* Omnes Black.ttf */; };
+		7B6EEEADB32749958EB1752D /* Omnes Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C0304B3FB7FF4FBE8E676374 /* Omnes Light.ttf */; };
+		E1E72D9836FA454EBE41C668 /* Omnes Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 12A93B3868704F14AC3F184B /* Omnes Medium.ttf */; };
+		E0D03B9ACD0D46D88385698A /* Omnes SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3F590FD2D0FC431682FCF9F8 /* Omnes SemiBold.ttf */; };
+		E0DFB73845754E9184EE6765 /* Omnes.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AD34BA26A5AC4E43B8B1670F /* Omnes.ttf */; };
+		205780A2AE5341D0964E6BBB /* Billabong.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0A2CB7009F9846888EE65C9B /* Billabong.otf */; };
+		3E050C092A3F436BBEF4976D /* Omnes Black Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 240B8CF1E274492B97823815 /* Omnes Black Italic.ttf */; };
+		C2F7FE0983D24FAFB6ACC7E0 /* Omnes Bold Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D8CC6572A6D243FA99825C1F /* Omnes Bold Italic.ttf */; };
+		8AF59480F90C4233BE992574 /* Omnes Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EC8B5FF207A94C1E9966F8BE /* Omnes Bold.ttf */; };
+		097C401CEC5C4EB18CC95680 /* Omnes ExtraLight Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 807D42195230486C93A7CB29 /* Omnes ExtraLight Italic.ttf */; };
+		7AE3A6F9A47B4D14B411E500 /* Omnes ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 72F4F9F56AC845199F988301 /* Omnes ExtraLight.ttf */; };
+		B3AA0A9E33CA496687DF5978 /* Omnes Hairline Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F50D076CF6BF4BFD845B6736 /* Omnes Hairline Italic.ttf */; };
+		9FEB0A0051494C77B03A32C8 /* Omnes Hairline.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 87AF2DB8163F4FACA9BEFF08 /* Omnes Hairline.ttf */; };
+		DC9F56422FC349C9BF78BA70 /* Omnes Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BFF404E4F4B3479E89DCECB7 /* Omnes Italic.ttf */; };
+		BFF60E0E84314B72B37E9718 /* Omnes Light Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CD2D867526C34141B335BCA1 /* Omnes Light Italic.ttf */; };
+		1D2B3924E69543548277B555 /* Omnes Medium Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E9377C129595410291754982 /* Omnes Medium Italic.ttf */; };
+		A4A032DFF5E34E7089DEA419 /* Omnes Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 10D341DDAF804CC5BBDE9304 /* Omnes Regular.ttf */; };
+		EC061F554BB242888BA545F3 /* Omnes SemiBold Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 379D411B9340405EB1B93101 /* Omnes SemiBold Italic.ttf */; };
+		796C6541C06E4D91B3A21BEB /* Omnes Thin Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 97D70CDD43FB40F385ED0FE5 /* Omnes Thin Italic.ttf */; };
+		B4067622EA7049E1A6B4AA2C /* Omnes Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 97EC0D50C5944A7A91485DE2 /* Omnes Thin.ttf */; };
+		FA7C161D6F064BAE8A0BDFE4 /* billabong.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DDF51AD898C742CEA09B36F5 /* billabong.ttf */; };
+		EE685BFCCBFB48468523FCCF /* GladoliaDEMO-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 683395EBFC564DAEA0E2A96B /* GladoliaDEMO-Regular.otf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00E356F41AD99517003FC87E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
+			remoteInfo = PlantGallery;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* PlantGallery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlantGallery.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = PlantGallery/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = PlantGallery/Info.plist; sourceTree = "<group>"; };
+		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = PlantGallery/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		3B4392A12AC88292D35C810B /* Pods-PlantGallery.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlantGallery.debug.xcconfig"; path = "Target Support Files/Pods-PlantGallery/Pods-PlantGallery.debug.xcconfig"; sourceTree = "<group>"; };
+		5709B34CF0A7D63546082F79 /* Pods-PlantGallery.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlantGallery.release.xcconfig"; path = "Target Support Files/Pods-PlantGallery/Pods-PlantGallery.release.xcconfig"; sourceTree = "<group>"; };
+		5DCACB8F33CDC322A6C60F78 /* libPods-PlantGallery.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PlantGallery.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		761780EC2CA45674006654EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = PlantGallery/AppDelegate.swift; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = PlantGallery/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		A7B4BD4A14124924B0672CC0 /* Omnes Black.ttf */ = {isa = PBXFileReference; name = "Omnes Black.ttf"; path = "../assets/fonts/Omnes Black.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C0304B3FB7FF4FBE8E676374 /* Omnes Light.ttf */ = {isa = PBXFileReference; name = "Omnes Light.ttf"; path = "../assets/fonts/Omnes Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		12A93B3868704F14AC3F184B /* Omnes Medium.ttf */ = {isa = PBXFileReference; name = "Omnes Medium.ttf"; path = "../assets/fonts/Omnes Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3F590FD2D0FC431682FCF9F8 /* Omnes SemiBold.ttf */ = {isa = PBXFileReference; name = "Omnes SemiBold.ttf"; path = "../assets/fonts/Omnes SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		AD34BA26A5AC4E43B8B1670F /* Omnes.ttf */ = {isa = PBXFileReference; name = "Omnes.ttf"; path = "../assets/fonts/Omnes.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		0A2CB7009F9846888EE65C9B /* Billabong.otf */ = {isa = PBXFileReference; name = "Billabong.otf"; path = "../assets/fonts/Billabong.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		240B8CF1E274492B97823815 /* Omnes Black Italic.ttf */ = {isa = PBXFileReference; name = "Omnes Black Italic.ttf"; path = "../assets/fonts/Omnes Black Italic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D8CC6572A6D243FA99825C1F /* Omnes Bold Italic.ttf */ = {isa = PBXFileReference; name = "Omnes Bold Italic.ttf"; path = "../assets/fonts/Omnes Bold Italic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		EC8B5FF207A94C1E9966F8BE /* Omnes Bold.ttf */ = {isa = PBXFileReference; name = "Omnes Bold.ttf"; path = "../assets/fonts/Omnes Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		807D42195230486C93A7CB29 /* Omnes ExtraLight Italic.ttf */ = {isa = PBXFileReference; name = "Omnes ExtraLight Italic.ttf"; path = "../assets/fonts/Omnes ExtraLight Italic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		72F4F9F56AC845199F988301 /* Omnes ExtraLight.ttf */ = {isa = PBXFileReference; name = "Omnes ExtraLight.ttf"; path = "../assets/fonts/Omnes ExtraLight.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F50D076CF6BF4BFD845B6736 /* Omnes Hairline Italic.ttf */ = {isa = PBXFileReference; name = "Omnes Hairline Italic.ttf"; path = "../assets/fonts/Omnes Hairline Italic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		87AF2DB8163F4FACA9BEFF08 /* Omnes Hairline.ttf */ = {isa = PBXFileReference; name = "Omnes Hairline.ttf"; path = "../assets/fonts/Omnes Hairline.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		BFF404E4F4B3479E89DCECB7 /* Omnes Italic.ttf */ = {isa = PBXFileReference; name = "Omnes Italic.ttf"; path = "../assets/fonts/Omnes Italic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		CD2D867526C34141B335BCA1 /* Omnes Light Italic.ttf */ = {isa = PBXFileReference; name = "Omnes Light Italic.ttf"; path = "../assets/fonts/Omnes Light Italic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E9377C129595410291754982 /* Omnes Medium Italic.ttf */ = {isa = PBXFileReference; name = "Omnes Medium Italic.ttf"; path = "../assets/fonts/Omnes Medium Italic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		10D341DDAF804CC5BBDE9304 /* Omnes Regular.ttf */ = {isa = PBXFileReference; name = "Omnes Regular.ttf"; path = "../assets/fonts/Omnes Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		379D411B9340405EB1B93101 /* Omnes SemiBold Italic.ttf */ = {isa = PBXFileReference; name = "Omnes SemiBold Italic.ttf"; path = "../assets/fonts/Omnes SemiBold Italic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		97D70CDD43FB40F385ED0FE5 /* Omnes Thin Italic.ttf */ = {isa = PBXFileReference; name = "Omnes Thin Italic.ttf"; path = "../assets/fonts/Omnes Thin Italic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		97EC0D50C5944A7A91485DE2 /* Omnes Thin.ttf */ = {isa = PBXFileReference; name = "Omnes Thin.ttf"; path = "../assets/fonts/Omnes Thin.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		DDF51AD898C742CEA09B36F5 /* billabong.ttf */ = {isa = PBXFileReference; name = "billabong.ttf"; path = "../assets/fonts/billabong.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		683395EBFC564DAEA0E2A96B /* GladoliaDEMO-Regular.otf */ = {isa = PBXFileReference; name = "GladoliaDEMO-Regular.otf"; path = "../assets/fonts/GladoliaDEMO-Regular.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C80B921A6F3F58F76C31292 /* libPods-PlantGallery.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E356F01AD99517003FC87E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F11AD99517003FC87E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13B07FAE1A68108700A75B9A /* PlantGallery */ = {
+			isa = PBXGroup;
+			children = (
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				761780EC2CA45674006654EE /* AppDelegate.swift */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
+				13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */,
+			);
+			name = PlantGallery;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				5DCACB8F33CDC322A6C60F78 /* libPods-PlantGallery.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				13B07FAE1A68108700A75B9A /* PlantGallery */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				55C419AE047C46758E23FE49 /* Resources */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* PlantGallery.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3B4392A12AC88292D35C810B /* Pods-PlantGallery.debug.xcconfig */,
+				5709B34CF0A7D63546082F79 /* Pods-PlantGallery.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		55C419AE047C46758E23FE49 /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				A7B4BD4A14124924B0672CC0 /* Omnes Black.ttf */,
+				C0304B3FB7FF4FBE8E676374 /* Omnes Light.ttf */,
+				12A93B3868704F14AC3F184B /* Omnes Medium.ttf */,
+				3F590FD2D0FC431682FCF9F8 /* Omnes SemiBold.ttf */,
+				AD34BA26A5AC4E43B8B1670F /* Omnes.ttf */,
+				0A2CB7009F9846888EE65C9B /* Billabong.otf */,
+				240B8CF1E274492B97823815 /* Omnes Black Italic.ttf */,
+				D8CC6572A6D243FA99825C1F /* Omnes Bold Italic.ttf */,
+				EC8B5FF207A94C1E9966F8BE /* Omnes Bold.ttf */,
+				807D42195230486C93A7CB29 /* Omnes ExtraLight Italic.ttf */,
+				72F4F9F56AC845199F988301 /* Omnes ExtraLight.ttf */,
+				F50D076CF6BF4BFD845B6736 /* Omnes Hairline Italic.ttf */,
+				87AF2DB8163F4FACA9BEFF08 /* Omnes Hairline.ttf */,
+				BFF404E4F4B3479E89DCECB7 /* Omnes Italic.ttf */,
+				CD2D867526C34141B335BCA1 /* Omnes Light Italic.ttf */,
+				E9377C129595410291754982 /* Omnes Medium Italic.ttf */,
+				10D341DDAF804CC5BBDE9304 /* Omnes Regular.ttf */,
+				379D411B9340405EB1B93101 /* Omnes SemiBold Italic.ttf */,
+				97D70CDD43FB40F385ED0FE5 /* Omnes Thin Italic.ttf */,
+				97EC0D50C5944A7A91485DE2 /* Omnes Thin.ttf */,
+				DDF51AD898C742CEA09B36F5 /* billabong.ttf */,
+				683395EBFC564DAEA0E2A96B /* GladoliaDEMO-Regular.otf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		13B07F861A680F5B00A75B9A /* PlantGallery */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "PlantGallery" */;
+			buildPhases = (
+				C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */,
+				E235C05ADACE081382539298 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PlantGallery;
+			productName = PlantGallery;
+			productReference = 13B07F961A680F5B00A75B9A /* PlantGallery.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					13B07F861A680F5B00A75B9A = {
+						LastSwiftMigration = 1120;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "PlantGallery" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* PlantGallery */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00E356EC1AD99517003FC87E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				948191DE9C3B4B83A051FBCF /* Omnes Black.ttf in Resources */,
+				7B6EEEADB32749958EB1752D /* Omnes Light.ttf in Resources */,
+				E1E72D9836FA454EBE41C668 /* Omnes Medium.ttf in Resources */,
+				E0D03B9ACD0D46D88385698A /* Omnes SemiBold.ttf in Resources */,
+				E0DFB73845754E9184EE6765 /* Omnes.ttf in Resources */,
+				205780A2AE5341D0964E6BBB /* Billabong.otf in Resources */,
+				3E050C092A3F436BBEF4976D /* Omnes Black Italic.ttf in Resources */,
+				C2F7FE0983D24FAFB6ACC7E0 /* Omnes Bold Italic.ttf in Resources */,
+				8AF59480F90C4233BE992574 /* Omnes Bold.ttf in Resources */,
+				097C401CEC5C4EB18CC95680 /* Omnes ExtraLight Italic.ttf in Resources */,
+				7AE3A6F9A47B4D14B411E500 /* Omnes ExtraLight.ttf in Resources */,
+				B3AA0A9E33CA496687DF5978 /* Omnes Hairline Italic.ttf in Resources */,
+				9FEB0A0051494C77B03A32C8 /* Omnes Hairline.ttf in Resources */,
+				DC9F56422FC349C9BF78BA70 /* Omnes Italic.ttf in Resources */,
+				BFF60E0E84314B72B37E9718 /* Omnes Light Italic.ttf in Resources */,
+				1D2B3924E69543548277B555 /* Omnes Medium Italic.ttf in Resources */,
+				A4A032DFF5E34E7089DEA419 /* Omnes Regular.ttf in Resources */,
+				EC061F554BB242888BA545F3 /* Omnes SemiBold Italic.ttf in Resources */,
+				796C6541C06E4D91B3A21BEB /* Omnes Thin Italic.ttf in Resources */,
+				B4067622EA7049E1A6B4AA2C /* Omnes Thin.ttf in Resources */,
+				FA7C161D6F064BAE8A0BDFE4 /* billabong.ttf in Resources */,
+				EE685BFCCBFB48468523FCCF /* GladoliaDEMO-Regular.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/.xcode.env.local",
+				"$(SRCROOT)/.xcode.env",
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"$REACT_NATIVE_PATH/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"$REACT_NATIVE_PATH/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
+		};
+		00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PlantGallery/Pods-PlantGallery-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PlantGallery/Pods-PlantGallery-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PlantGallery/Pods-PlantGallery-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PlantGallery-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E235C05ADACE081382539298 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PlantGallery/Pods-PlantGallery-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PlantGallery/Pods-PlantGallery-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PlantGallery/Pods-PlantGallery-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				761780ED2CA45674006654EE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13B07F861A680F5B00A75B9A /* PlantGallery */;
+			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-PlantGallery.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = PlantGallery/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = PlantGallery;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-PlantGallery.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = PlantGallery/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = PlantGallery;
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++20";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-DFOLLY_NO_CONFIG",
+					"-DFOLLY_MOBILE=1",
+					"-DFOLLY_USE_LIBCPP=1",
+					"-DFOLLY_CFG_NO_COROUTINES=1",
+					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
+				);
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++20";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-DFOLLY_NO_CONFIG",
+					"-DFOLLY_MOBILE=1",
+					"-DFOLLY_USE_LIBCPP=1",
+					"-DFOLLY_CFG_NO_COROUTINES=1",
+					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
+				);
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "PlantGallery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "PlantGallery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}

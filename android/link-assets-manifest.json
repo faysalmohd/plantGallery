@@ -1,0 +1,93 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "assets/fonts/Billabong.otf",
+      "sha1": "b589f2fdace5463b9483e7b52d3e85d00f024439"
+    },
+    {
+      "path": "assets/fonts/billabong.ttf",
+      "sha1": "bb8d488bbbd8fdd5021139f24bdabdfbcb69a753"
+    },
+    {
+      "path": "assets/fonts/GladoliaDEMO-Regular.otf",
+      "sha1": "d3a29cfaf3cc3c4f251d2e2bbfd7aadcc02936bb"
+    },
+    {
+      "path": "assets/fonts/Omnes Black Italic.ttf",
+      "sha1": "47022f9d55fd42154cfecdad27818d273709b9ca"
+    },
+    {
+      "path": "assets/fonts/Omnes Black.ttf",
+      "sha1": "44bb1f4c064cf7984c331daadb195bfc63435455"
+    },
+    {
+      "path": "assets/fonts/Omnes Bold Italic.ttf",
+      "sha1": "7a9dd29cf89ac25d57e57741b1585826b824bf61"
+    },
+    {
+      "path": "assets/fonts/Omnes Bold.ttf",
+      "sha1": "31fe49a7a24c1f1eeb4f7028874405f97cf93b38"
+    },
+    {
+      "path": "assets/fonts/Omnes ExtraLight Italic.ttf",
+      "sha1": "746b4b0c7fde3506ed33045b796d5e49d51e0375"
+    },
+    {
+      "path": "assets/fonts/Omnes ExtraLight.ttf",
+      "sha1": "7da7779dd9a5efee25ec6d2e7b1ce4f321f65092"
+    },
+    {
+      "path": "assets/fonts/Omnes Hairline Italic.ttf",
+      "sha1": "d56a528cbb8ca87374288403fb7ef9a8d4eda531"
+    },
+    {
+      "path": "assets/fonts/Omnes Hairline.ttf",
+      "sha1": "83dd7beefaa5154b55d8701079e6a3ed6c33078a"
+    },
+    {
+      "path": "assets/fonts/Omnes Italic.ttf",
+      "sha1": "b7e86b0583474352aec3280647e9f0bef37826e0"
+    },
+    {
+      "path": "assets/fonts/Omnes Light Italic.ttf",
+      "sha1": "741a16cbb350c391735a1709242ed08f80ba2d4b"
+    },
+    {
+      "path": "assets/fonts/Omnes Light.ttf",
+      "sha1": "a23d1a8224888dfd545e11e3b9a496648560df34"
+    },
+    {
+      "path": "assets/fonts/Omnes Medium Italic.ttf",
+      "sha1": "cc25bef9126c5f39f04ffff91fb218d108da16df"
+    },
+    {
+      "path": "assets/fonts/Omnes Medium.ttf",
+      "sha1": "a9dff507ef9e2463e7475ed4424cb5786d55251e"
+    },
+    {
+      "path": "assets/fonts/Omnes Regular.ttf",
+      "sha1": "35dba503df27d71291dfd93554e8443ee1c2d94a"
+    },
+    {
+      "path": "assets/fonts/Omnes SemiBold Italic.ttf",
+      "sha1": "1b84db6904f4ebf4c5cff17f0b3361879ecdb4ad"
+    },
+    {
+      "path": "assets/fonts/Omnes SemiBold.ttf",
+      "sha1": "9a23adca55edd23160f5156beec816450a395554"
+    },
+    {
+      "path": "assets/fonts/Omnes Thin Italic.ttf",
+      "sha1": "092af750209f72f7212fcaa92add3d567afba396"
+    },
+    {
+      "path": "assets/fonts/Omnes Thin.ttf",
+      "sha1": "d24ecdaec17bf3d939a1954e1483a5e111ae0062"
+    },
+    {
+      "path": "assets/fonts/Omnes.ttf",
+      "sha1": "35dba503df27d71291dfd93554e8443ee1c2d94a"
+    }
+  ]
+}
